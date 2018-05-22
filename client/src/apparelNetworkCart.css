@@ -1,0 +1,83 @@
+
+/* Main */
+
+
+#apn-title-row {
+	background-color: #f76270;
+	color: white;
+	width: 100%;
+	position: fixed; 
+    top: 0; 
+    overflow: hidden;
+	text-align: center;
+	padding-top: 20px;
+	height: 80px;
+	margin: 0;
+	font-family: "Avenir";
+	z-index: 1;
+}
+
+.main-container {
+	font-family: "Avenir";
+	margin-top: 100px;
+}
+
+.apn-btn {
+	color: white;
+	background-color: #3ea8e5;
+	padding: 8px;
+	border-radius: 10px;
+	display: block;
+}
+
+.product-cell .apn-btn {
+	margin: 0 auto;
+}
+
+.product-cell {
+	margin: 0 auto 20px auto;
+	text-align: center;
+}
+
+.product-cell .cart-quantity {
+	display: none;
+}
+
+.product-item {
+	display: flex;
+ 	align-items: center;
+  	justify-content: center;
+}
+
+.product-title {
+	margin: 15px 0 10px 0;
+}
+
+.product-desc {
+	margin: 5px;
+}
+
+.product-img {
+	width: 100%;
+	display: block;
+}
+
+.cart-container {
+	float: right;
+	border-left: 1px #eee solid;
+}
+
+.cart-container .inventory{
+	display: none;
+}
+
+.cart-total {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.checkout-btn {
+	margin-left: 15px;
+	width: 100%;
+}
